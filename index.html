@@ -1,0 +1,257 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicacion cinco</title>
+ 
+<!--grupo CSS-->
+<link rel="stylesheet" href="../app5/css/temasapp5.min.css"/>
+<link rel="stylesheet" href="../app5/css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="../app5/css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="../app3/js/jquery-1.11.2.min.js"></script>
+<script src="../app3/js/jquery.mobile-1.4.5.min.js"></script>
+<script src="../app3/js/acciones.js"></script>
+<script src="../app3/phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+ 
+<body onLoad="MM_preloadImages('imagenes/conta1.png','imagenes/conta5.png','imagenes/tierra7.png','imagenes/tierra3.png','imagenes/comunidad.png')">
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Dia de la Tierra</h1>
+       </div>
+      <div data-role="main" class="ui-content">
+  <div></div>
+    <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/conta1.png',1)"><img src="imagenes/tierra8.png" width="275" height="183" id="Image7"></a><br>
+    </div>
+  </div>
+   <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>¿Por qué se celebra el dia de la tierra?</h2>
+    <p>Se muestra información sobre la tierra</p>
+      </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+    <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Cuidado del medio ambiente</h2>
+    <p>Se muestra información sobre el cuidado del medio ambiente</p>
+      </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Beneficios del cuidado del Medio Ambiente</h2>
+       <p>Se muestra información sobre los beneficios</p>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Tipos de contaminación</h2>
+       <p>Se muestra información sobre los tipos de contaminación</p>
+       </a>
+     </li>
+    </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+   <div>
+     <h4>Aplicacacion 5</h4>
+     <h4>Rojas Dominguez Mayra</h4>
+   </div>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>¿Por qué se celebra el dia de la Tierra?</h1>
+  </div>
+ <div data-role="content">
+    <div>
+El 22 de abril de cada año se celebra el nacimiento del movimiento ambientalista moderno, el cual se inició en 1970 cuando 20 millones de norteamericanos tomaron las calles, los parques y los auditorios para manifestarse por un ambiente saludable y sustentable<h1>¿Que se ignifica ?</h1>
+ El Día de la Tierra de 1970 logró una coincidencia política que parecía imposible. Ese día condujo a la creación de la Agencia de Protección al Medio Ambiente de Estados Unidos y a la aprobación de leyes relacionadas con el aire limpio, el agua limpia y la conservación de especies en peligro de extinción. A partir de entonces, cada año en esta fecha, el mundo entero reflexiona y se moviliza por una Tierra mejor Hasta este siglo pocos pensaron que los seres humanos, viviendo en una extensión de tierra aparentemente sin límites y con agua abundante, podrían causar daños irreparables al medio ambiente. Sin embargo hoy los gobiernos y la gente en general en todo el mundo luchan con la erosión costera, los derrames de petróleo y la contaminación del agua potable, en tanto que cuestiones como el crecimiento de la población, la deforestación, la lluvia ácida y la posibilidad de rápidos cambios climáticos significan decisiones difíciles para el futuro. En 1975 un grupo internacional de estudio reunido en Belgrado, Yugoslavia, propuso un marco de referencia mundial para la educación ambiental, el cual se llamó la "Carta de Belgrado". Esta Carta afirma que la meta de la educación ambiental es hacer que la población mundial se preocupe por el medio ambiente y tenga el conocimiento y la dedicación que la capacite para buscar soluciones a los problemas actuales y prevenir problemas nuevos. .
+<br>
+<br>
+<img src="../app5/imagenes/tierra1.png" width="451" height="311"><br>
+</div>
+  </div>
+  
+       <div data-role="collapsible" data-content-theme="false">
+    <h1>Fecha en que se celebra el dia de la Tierra</h1>
+El 22 de abril se celebra el Día Mundial de la Tierra. Esta fecha fue elegida porque el 22 de abril de 1970 una manifestación en Estados Unidos para que se creara en el Gobierno una agencia ambiental que trabaje sobre las problemáticas medioambientales. El impulsor de la protesta fue el senador y activista ambiental Gaylord Nelson, quien convocó a miles de universidades, escuelas primarias y secundarias entre otras comunidades a participar del pedido. Gracias a la expresión social el Ejecutivo estadounidense creó Environmental Protection Agency (Agencia de Protección Ambiental) y varias leyes de protección del medio ambiente. Dos años después se llevó adelante el encuentro a nivel mundial: Cumbre de la Tierra de Estocolmo. La intensión es sensibilizar a la humanidad de que es parte del planeta Tierra y sus huellas marcarán el destino del mundo, por eso reducir (el consumo), reciclar y reutilizar objetos es la forma en que cada uno día a día puede colaborar para evitar la contaminación ambiental.
+<BR>
+<img src="../app5/imagenes/conta4.png" width="450" height="297">
+
+      </div>
+  <div data-role="footer" data-theme="a">
+  <h4>App5, Rojas Dominguez Mayra</h4>
+    </div>
+</div>
+</div>
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Cuidado del medio ambiente</h1>
+ </div>
+ <P><img src="imagenes/tierra4.png" width="480" height="360"></P>
+ <div data-role="content" >
+ <div>
+ <h4>El Cuidado del Medio Ambiente: un Deber de Todos Cada persona tiene diferentes aspiraciones según su forma de ser y su nivel sociocultural. Pero existen algunas comunes a todos: vivienda digna, alimentación adecuada, educación, atención de la salud, un trabajo de acuerdo a las propias capacidades y momentos de recreación. Hoy se agrega otra que es la de vivir en un ambiente sano y equilibrado ecológicamente. Ultimamente ha comenzado a crecer el interés internacional por integrar las medidas de conservación ambiental a las políticas de crecimiento económico y social.
+<br>
+No nos olvidemos que a veces con pequeños gestos, multiplicados por cientos de miles de personas, podemos colaborar y ser parte del cambio: ahorrar el agua, cuidando de no dejar el grifo abierto innecesariamente; apagar las luces y los electrodomésticos que no están en uso; reciclar nuestros residuos; comprar aparatos eléctricos eficientes; optar por coches híbridos o con combustibles alternativos. </h4>
+ </div>
+ <div data-role="collapsible" data-content-theme="false">
+    <h1>MEDIDAS</h1>
+    <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/conta5.png',1)"><img src="imagenes/tierra5.png" width="275" height="184" id="Image8"></a></p>
+    <p>1. Consumir menos luz. 
+2. Mantener automóviles en buen estado. 
+3. Mantener bien cerradas las llaves de los grifos. 
+4. Desconectar aparatos eléctricos que no estén en uso. 
+5. Mantener las llantas de los automóviles bien infladas (para no forzar mas el motor, y así no generar tanto CO2) 
+6. No encender y apagar la luz, a cada momento si no es necesario. 
+7. Apagar las luces que no se utilicen. 
+8. si Algo no nos sirve (ropa, zapatos, juegetes) en vez de tirarlos, ver si se pueden donar, para ocupar menos espacio en basureros. 
+9. No utilizar papel en exceso. 
+10. las cosas "que no sirvan" utilizarlas en otras cosas, para no tener que tirarlas. 
+11.-Tratar den usar menos los carros y caminar o usar bicicletas.
+12.-No tirar basura en las calles y tirarlas en los lugares apropiados para eso.
+13.-Limpiar barrancas y rios que esten ya contaminados.
+14.-No quemar basura en las calles.
+15.-Evitar fumar, encender fogatas, en bosques o cerca de ellos.
+ </p>
+ </div>
+ 
+ <div data-role="collapsible" data-content-theme="false">
+    <h1>REGLA DE LAS "ERRES"</h1>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/_gWsFaLfasA" frameborder="0" allowfullscreen></iframe>
+ </div>
+     
+     <div data-role="collapsible" data-content-theme="false">
+    <h1>CALENTAMIENTO GLOBAL</h1>
+<BR>
+<P>El término Calentamiento Global se refiere al aumento gradual de las temperaturas de la atmósfera y océanos de la Tierra que se ha detectado en la actualidad, además de su continuo aumento que se proyecta a futuro. 
+Nadie pone en duda el aumento de la temperatura global, lo que todavía genera controversia es la fuente y razón de este aumento de la temperatura. Aún así, la mayor parte de la comunidad científica asegura que hay más que un 90% de certeza que el aumento se debe al aumento de las concentraciones de gases de efecto invernadero por las actividades humanas que incluyen deforestación y la quema de combustibles fósiles como el petróleo y el carbón. Estas conclusiones son avaladas por las academias de ciencia de la mayoría de los países industrializados.
+es una problemática por que las capas de la tierra se van deteroriando y los rayos ultravioleta entran mas directamente hacia nosotros.
+ha habído mas sequías en los ultimos años a causa de eso. ¡cuidemos al planeta!</P>
+<P><img src="imagenes/conta2.png" width="480" height="360"></P>
+      </div>
+      
+       <div data-role="collapsible" data-content-theme="false">
+    <h1>CONTAMINACIÓN EN MI COMUNIDAD</h1>
+    <p>La basura en mi comunidad es un problema muy grave, ya que debido a ésta ha sucedido que la gente sufra de enfermedades.Este problema ocurre cuando las personas que conviven en lacomunidad botan sus desechos y desperdicios sin darles ningún usoposterior.También la basura trae mal olor en nuestra comunidad, sobre todocuando las personas tiran animales muertos.La basura es muy dañina para nuestra salud, pero la gente no tomaconciencia y no la pone en los depósitos adecuados, para podervivir en un lugar sin problemas ambientales.La basura debe ir en bolsas resistentes para evitar la contaminación y también debe colocarse en lugares seguros. 
+      Debemos reciclar y colocando ordenadamente cada material.
+      Practicar el reciclado, de tal manera ahorrariamos materiales, energía,esfuerzo humano, recursos naturales, los señores de una edad abanzada son los que contaminan más, por que en lugar de tirar la basura a los botes, mejor la queman, tiran basura en las barrancas, en las calles.</p>
+      <h1>SOLUCIONES</h1>
+     El presidente de mi comunidad propuso que los ultimos domingos de cada mes, todos los habitantes salieran a limpiar las calles y barrancas, el que no cumpliera con eso se le sancionara con una multa. 
+     Tratar de hacer entender a la gente mayor que deben tirar la basura en lugares para eso y no quemarla. 
+    <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/comunidad.png',1)"><img src="imagenes/com.png" width="282" height="179" id="Image12"></a></p>
+    </div>
+      </div>
+ <div data-role="footer" data-theme="a">
+ <h4>App5, Rojas Domimnguez Mayra</h4>
+ </div>
+ </div>
+</div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Beneficios del cuidado del medio ambiente</h1>
+ </div>
+  <div data-role="content" >
+  <div>
+ </div>
+ <div>
+ <p>Hay muchos beneficios en cuidar el medio ambiente, como por ejemplo ahorrar energía o dejar de contaminar. A continuación les dejare una lista de estos beneficios: 
+   Ahorrar energía.
+   Reducir la contaminación del aire.
+   Reducir la contaminación del ambiente
+   Ayudar a vivir en un ambiente más limpio y sano.
+   Reducir el crecimiento del agujero de la capa de ozono.
+   Dejar de extinguir animales.
+   Ampliar el hábitat de animales. </p>
+   <p>Nos beneficiaría mucho por que asi habria mas animales vivos, mas especies, tendriamos mucha mas vegetación, no habría cambios climáticos tan bruscos, no habria tantas enfermedades como ahora, el agua estaría mas limpia tendriamos mas agua, no habrían tanatas sequías, asi que tomemos conciencia y cuidemos al Planeta Tierra, cada uno con una acción por mas simple o pequeña que parezca podemos hacer grandes cosas.</p>
+ </div>
+  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/tierra7.png',1)"><img src="imagenes/conta6.png" width="300" height="168" id="Image9"></a></p>
+  </div>
+ <div data-role="footer" data-theme="a">
+ <h4>App5, Rojas Dominguez Mayra</h4>
+ </div>
+ </div> 
+ </div>
+ 
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>TIPOS DE CONTAMINACIÓN</h1>
+ </div>
+  <div data-role="content" >
+  <div>
+ </div>
+ <!-- Start WOWSlider.com -->
+<iframe src="visor/visor.html" style="width:400px;height:135px;max-width:90%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+ <div>
+ <h4>
+Los tipos de contaminación más importantes son los que afectan a los recursos naturales básicos: el aire, los suelos y el agua. 
+Existen diferentes tipos de contaminación que dependen de determinados factores y que afectan distintamente a cada ambiente. 
+Contaminación del aire: se denomina a la adición de elementos tóxicos como el CO. Este tipo de contaminación afecta al bienestar de las personas, animales y plantas de forma negativa.
+Contaminación del suelo: cuando se introduce material extraño y dañino en las capas terrestres. Estos contaminantes producen un desequilibrio físico, químico y biológico en el suelo.
+Otras perturbaciones medio ambientales graves relacionadas con los fenómenos de contaminación son los escapes radiactivos, el smog, la lluvia ácida,los gases de efecto invernadero, las mareas negras y la destrucción de la capa de ozono.
+ </div>
+ <div data-role="collapsible" data-content-theme="false">
+    <h1>Contaminación del agua</h1>
+    <p>Contaminación del agua: cuando se incorpora al agua sustancias extrañas como microorganismos, productos químicos, residuos industriales o aguas residuales. Estos contaminantes hacen que el agua no sea beneficiosa para el ser humano ni para la vida vegetal y animal.</p>
+    <p><img src="../app5/imagenes/tip.png" width="446" height="245"></p>
+ </div>
+ <div data-role="collapsible" data-content-theme="false">
+    <h1>Contaminación Lumínica</h1>
+     <p>la contaminación luminica puede deferirse como el flujo de luces, Un ineficiente y mal diseñado alumbrado exterior, la utilizació de proyectores laser, la inexistente regulación del horario de apagado de iluminaciónes publicitarias, todo eso contribuye a la contamación luminica, lo que no podemos negar esq qué las imagenes desde el espacio son muy bonitas  </p>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/tierra3.png',1)"><img src="imagenes/lum.png" width="300" height="168" id="Image10"></a></p>
+ </div>
+     <div data-role="collapsible" data-content-theme="false">
+     
+    <h1>Contaminación Térmica</h1>
+    <p>Contaminación del aire: se denomina a la adición de elementos tóxicos como el CO. Este tipo de contaminación afecta al bienestar de las personas, animales y plantas de forma negativa, Las fabricas son contaminantes importantes, ya que el humo que liberan tiene bastantes químicos, cuando queman basura, cuando se incendian bosques o lugares públicos e,t,c.</p>
+    <p><img src="../app5/imagenes/conta8.png" width="446" height="245"></p>
+    <BR>
+     </div>
+      
+       <div data-role="collapsible" data-content-theme="false">
+    <h1>Contaminación Acústica</h1>
+se le llama contaminacion acusttica al exeso de sonido, o cuando alguien esta dciciendo groserias, la contaminacón acustica afecta a todos, sus principales causas son aquellas relacionadas con las actividades humanas como el transporte, la construcción de edificios y obras publicas.
+se ha dicho por organismos internacionales puede aver transtornos que van desde lo qsicologico, hasta lo fisiológico por la execiva exposición de la contaminación sónica
+<BR>
+   <p><img src="../app5/imagenes/acus.png" width="446" height="245"></p>
+
+      </div>
+      </div>
+ <div data-role="footer" data-theme="a">
+ <h4>App5, Rojas Dominguez Mayra</h4>
+ </div>
+ </div>
+ </div>
+
+ </body>
+ </html>
